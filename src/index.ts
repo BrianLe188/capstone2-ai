@@ -33,7 +33,10 @@ async function main() {
     const schema: FunctionParameters = {
       type: "object",
       properties: {
-        topics: { type: "string", enum: TOPIC_TAGS },
+        topics: {
+          type: "string",
+          enum: TOPIC_TAGS,
+        },
         languages: { type: "string", enum: LANGUAGE_TAGS },
       },
       required: ["topics"],
@@ -46,9 +49,14 @@ async function main() {
     const chainTag = createTaggingChain(schema, chatModel);
 
     advise(io.of("/advise"), { chainCore, chainTag });
+
+    server.listen(process.env.AI_PORT, () => {
+      console.log(
+        `AI service is running on ${process.env.AI_HOST}:${process.env.AI_PORT}`
+      );
+    });
   } catch (error) {
-  } finally {
-    console.log("AI service is running");
+    console.log(error);
   }
 }
 
