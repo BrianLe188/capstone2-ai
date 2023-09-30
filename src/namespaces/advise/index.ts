@@ -11,9 +11,12 @@ const advise = (
   }: { chainCore: SqlDatabaseChain; chainTag: LLMChain<object, BaseChatModel> }
 ) => {
   io.on("connection", (socket) => {
-    socket.on("chat", ({ message }: { message: string }) => {
-      socket.emit("chat", { message: message + "1" });
-    });
+    socket.on(
+      "chat",
+      ({ type, content }: { type: string; content: string }) => {
+        socket.emit("chat", {});
+      }
+    );
   });
 };
 
