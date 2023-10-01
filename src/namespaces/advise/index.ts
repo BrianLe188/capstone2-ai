@@ -2,6 +2,7 @@ import { LLMChain } from "langchain/chains";
 import { SqlDatabaseChain } from "langchain/chains/sql_db";
 import { BaseChatModel } from "langchain/chat_models/base";
 import { Namespace } from "socket.io";
+import { MyEventEmitter } from "../../events";
 
 const advise = (
   io: Namespace,
@@ -25,6 +26,9 @@ const advise = (
             },
           ],
         });
+        if (res) {
+          MyEventEmitter.emit("create_message", { content: res });
+        }
       }
     );
   });

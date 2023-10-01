@@ -12,6 +12,8 @@ import { FunctionParameters } from "langchain/output_parsers";
 import { LANGUAGE_TAGS, TOPIC_TAGS } from "./utils/constant";
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import { createTaggingChain } from "langchain/chains";
+import amqp from "amqplib";
+import queue from "./queue";
 
 const app = express();
 const server = createServer(app);
@@ -19,6 +21,9 @@ const io = new Server(server);
 
 async function main() {
   try {
+    const amqpConnection = await amqp.connect("amqp://127.0.0.1");
+    const channel = await amqpConnection.createChannel();
+
     const core = await SqlDatabase.fromDataSourceParams({
       appDataSource: coreDB,
     });
@@ -50,6 +55,7 @@ async function main() {
     });
     const chainTag = createTaggingChain(schema, chatModel);
 
+    queue({ channel });
     advise(io.of("/advise"), { chainCore, chainTag });
 
     server.listen(process.env.AI_PORT, () => {
@@ -59,6 +65,9 @@ async function main() {
     });
   } catch (error) {
     console.log(error);
+    setInterval(() => {
+      main();
+    }, 1000);
   }
 }
 
