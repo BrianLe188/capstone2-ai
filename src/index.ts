@@ -5,13 +5,13 @@ import { createServer } from "http";
 import { Server } from "socket.io";
 import advise from "./namespaces/advise";
 import { SqlDatabase } from "langchain/sql_db";
-import { SqlDatabaseChain } from "langchain/chains/sql_db";
 import { coreDB } from "./data-source";
 import { OpenAI } from "langchain/llms/openai";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-import type { FunctionParameters } from "langchain/output_parsers";
-import { createTaggingChain } from "langchain/chains";
+import { SqlDatabaseChain } from "langchain/chains/sql_db";
+import { FunctionParameters } from "langchain/output_parsers";
 import { LANGUAGE_TAGS, TOPIC_TAGS } from "./utils/constant";
+import { ChatOpenAI } from "langchain/chat_models/openai";
+import { createTaggingChain } from "langchain/chains";
 
 const app = express();
 const server = createServer(app);
@@ -22,10 +22,12 @@ async function main() {
     const core = await SqlDatabase.fromDataSourceParams({
       appDataSource: coreDB,
     });
+
     const chainCore = new SqlDatabaseChain({
       llm: new OpenAI({
         temperature: 0,
         openAIApiKey: process.env.OPENAI_KEY,
+        streaming: true,
       }),
       database: core,
     });
