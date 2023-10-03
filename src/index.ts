@@ -43,10 +43,10 @@ async function main() {
         topics: {
           type: "string",
           enum: TOPIC_TAGS,
+          default: "none",
         },
-        languages: { type: "string", enum: LANGUAGE_TAGS },
+        languages: { type: "string", enum: LANGUAGE_TAGS, default: "none" },
       },
-      required: ["topics"],
     };
     const chatModel = new ChatOpenAI({
       modelName: "gpt-4-0613",

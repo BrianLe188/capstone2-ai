@@ -17,18 +17,28 @@ const advise = (
     socket.on(
       "chat",
       async ({ type, content }: { type: string; content: string }) => {
-        const res = await chainCore.run(content, {
-          callbacks: [
-            {
-              handleLLMNewToken(token: string) {
-                socket.emit("receive_message", { content: token });
-              },
-            },
-          ],
-        });
-        if (res) {
-          MyEventEmitter.emit("create_message", { content: res });
-        }
+        try {
+          if (content) {
+            const tagsOfHumanInput: any = await chainTag.run(content);
+            MyEventEmitter.emit("create_message", {
+              content,
+              type,
+              topics: Object.keys(tagsOfHumanInput).map(
+                (item) => tagsOfHumanInput[item]
+              ),
+            });
+            const res = await chainCore.run(content);
+            if (res) {
+              socket.emit("receive_message", { content: res });
+              const tags: any = await chainTag.run(res);
+              MyEventEmitter.emit("create_message", {
+                content: res,
+                type: "ai",
+                topics: Object.keys(tags).map((item) => tags[item]),
+              });
+            }
+          }
+        } catch (error) {}
       }
     );
   });
