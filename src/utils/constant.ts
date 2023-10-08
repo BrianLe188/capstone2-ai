@@ -13,4 +13,5 @@ export const TOPIC_TAGS = [
   "job_opportunities",
   "teacher",
   "club",
+  "document",
 ];
