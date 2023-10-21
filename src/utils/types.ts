@@ -1,7 +1,7 @@
 import { EFileExtension } from "./enums";
 
 export type FILES = {
-  id: number;
+  id: string;
   name: string;
   path: string;
   extension: EFileExtension;

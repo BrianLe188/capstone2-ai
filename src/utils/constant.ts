@@ -14,4 +14,5 @@ export const TOPIC_TAGS = [
   "teacher",
   "club",
   "document",
+  "rules",
 ];
