@@ -6,5 +6,5 @@ export const coreDB = new DataSource({
   port: 3306,
   username: "root",
   password: "root",
-  database: "capstone2-core",
+  database: "capstone2-report",
 });

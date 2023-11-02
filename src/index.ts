@@ -33,6 +33,7 @@ async function main() {
         temperature: 0,
         openAIApiKey: process.env.OPENAI_KEY,
         streaming: true,
+        modelName: "gpt-3.5-turbo-16k",
       }),
       database: core,
     });
