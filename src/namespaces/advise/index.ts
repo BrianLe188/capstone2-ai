@@ -60,12 +60,6 @@ const advise = (
               result = await chainCore.run(content);
             }
             if (result) {
-              socket.emit("receive_message", {
-                content: result,
-                type: "ai",
-                room,
-                sender: "ai",
-              });
               const senderMessage = {
                 content,
                 type,
@@ -78,6 +72,7 @@ const advise = (
                 room,
                 sender: "ai",
               };
+              socket.emit("receive_message", aiMessage);
               MyEventEmitter.emit("create_message", [senderMessage, aiMessage]);
             }
           }
