@@ -22,10 +22,14 @@ const advise = (
         type,
         content,
         file,
+        room,
+        sender,
       }: {
         type: string;
         content: string;
         file: number;
+        room: string;
+        sender: string;
       }) => {
         try {
           if (content) {
@@ -56,23 +60,25 @@ const advise = (
               result = await chainCore.run(content);
             }
             if (result) {
-              socket.emit("receive_message", { content: result });
-              const tagsOfHumanInput: any = await chainTag.run(content);
-              const tags: any = await chainTag.run(result);
-              MyEventEmitter.emit("create_message", {
-                human: {
-                  content,
-                  type,
-                  topics: Object.keys(tagsOfHumanInput).map(
-                    (item) => tagsOfHumanInput[item]
-                  ),
-                },
-                ai: {
-                  content: result,
-                  type: "ai",
-                  topics: Object.keys(tags).map((item) => tags[item]),
-                },
+              socket.emit("receive_message", {
+                content: result,
+                type: "ai",
+                room,
+                sender: "ai",
               });
+              const senderMessage = {
+                content,
+                type,
+                room,
+                sender,
+              };
+              const aiMessage = {
+                content: result,
+                type: "ai",
+                room,
+                sender: "ai",
+              };
+              MyEventEmitter.emit("create_message", [senderMessage, aiMessage]);
             }
           }
         } catch (error) {
