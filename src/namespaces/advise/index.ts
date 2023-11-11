@@ -73,7 +73,7 @@ const advise = (
                 sender: "ai",
               };
               socket.emit("receive_message", aiMessage);
-              MyEventEmitter.emit("create_message", [senderMessage, aiMessage]);
+              MyEventEmitter.emit("create_message", aiMessage);
             }
           }
         } catch (error) {
