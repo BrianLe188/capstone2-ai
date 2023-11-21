@@ -1,17 +1,28 @@
-import { LLMChain } from "langchain/chains";
+import { ConversationalRetrievalQAChain, LLMChain } from "langchain/chains";
 import { SqlDatabaseChain } from "langchain/chains/sql_db";
 import { BaseChatModel } from "langchain/chat_models/base";
 import { Namespace } from "socket.io";
 import { MyEventEmitter } from "../../events";
 import vectorstore from "../../utils/qachain";
 import type { FILES } from "../../utils/types";
+import { RunnableSequence } from "langchain/schema/runnable";
 
 const advise = (
   io: Namespace,
   {
-    chainCore,
-    chainTag,
-  }: { chainCore: SqlDatabaseChain; chainTag: LLMChain<object, BaseChatModel> }
+    qachain,
+  }: // advancedQA,
+  {
+    chainCore: SqlDatabaseChain;
+    chainTag: LLMChain<object, BaseChatModel>;
+    qachain: ConversationalRetrievalQAChain | null;
+    // advancedQA: RunnableSequence<
+    //   {
+    //     question: string;
+    //   },
+    //   any
+    // >;
+  }
 ) => {
   io.on("connection", (socket) => {
     console.log(`${socket.id} connect`);
@@ -46,26 +57,27 @@ const advise = (
                 }
               );
               if (fileObject) {
-                const qachain = await vectorstore({
+                const qachainFromTargetFile = await vectorstore({
                   extension: fileObject.extension,
                   path: fileObject.path,
                 });
                 result = (
-                  await qachain?.call({
+                  await qachainFromTargetFile?.call({
                     question: content,
                   })
                 )?.text;
               }
             } else {
-              result = await chainCore.run(content);
+              result = (
+                await qachain?.call({
+                  question: content,
+                })
+              )?.text;
+              // result = await advancedQA?.invoke({
+              //   question: content,
+              // });
             }
             if (result) {
-              const senderMessage = {
-                content,
-                type,
-                room,
-                sender,
-              };
               const aiMessage = {
                 content: result,
                 type: "ai",

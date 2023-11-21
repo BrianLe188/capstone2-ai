@@ -14,6 +14,8 @@ import { ChatOpenAI } from "langchain/chat_models/openai";
 import { createTaggingChain } from "langchain/chains";
 import amqp from "amqplib";
 import queue from "./queue";
+import qachain from "./qachain";
+import { run } from "./utils/advancedQA";
 
 const app = express();
 const server = createServer(app);
@@ -32,7 +34,6 @@ async function main() {
       llm: new OpenAI({
         temperature: 0,
         openAIApiKey: process.env.OPENAI_KEY,
-        streaming: true,
         modelName: "gpt-3.5-turbo-16k",
       }),
       database: core,
@@ -56,9 +57,16 @@ async function main() {
       openAIApiKey: process.env.OPENAI_KEY,
     });
     const chainTag = createTaggingChain(schema, chatModel);
+    const mychain = await qachain();
+    // const advancedQA = await run();
 
-    queue({ channel });
-    advise(io.of("/advise"), { chainCore, chainTag });
+    queue({ channel, qachain: mychain });
+    advise(io.of("/advise"), {
+      chainCore,
+      chainTag,
+      qachain: mychain,
+      // advancedQA,
+    });
 
     server.listen(process.env.AI_PORT, () => {
       console.log(
