@@ -54,7 +54,6 @@ const queue = async ({
     storeDocsPineconeQueue,
     async () => {
       try {
-        console.log("asdfasdfasdfads");
         const blob = join(__dirname, "..", "report.txt");
         const loader = new TextLoader(blob);
         const raw = await loader.load();
