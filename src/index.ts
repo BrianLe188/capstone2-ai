@@ -33,7 +33,7 @@ async function main() {
       llm: new OpenAI({
         temperature: 0,
         openAIApiKey: process.env.OPENAI_KEY,
-        modelName: "gpt-3.5-turbo-16k",
+        modelName: "gpt-3.5-turbo",
       }),
       database: core,
     });
@@ -56,16 +56,16 @@ async function main() {
       openAIApiKey: process.env.OPENAI_KEY,
     });
     const chainTag = createTaggingChain(schema, chatModel);
-    const mychain = await qachain();
+    // const mychain = await qachain();
 
     queue({
       channel,
-      qachain: mychain,
+      // qachain: mychain,
     });
     advise(io.of("/advise"), {
       chainCore,
       chainTag,
-      qachain: mychain,
+      // qachain: mychain,
     });
 
     server.listen(process.env.AI_PORT, () => {

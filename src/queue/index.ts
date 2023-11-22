@@ -1,10 +1,13 @@
 import { Channel, Message } from "amqplib";
 import { MyEventEmitter } from "../events";
 import { read, utils } from "xlsx";
-import path from "path";
+import path, { join } from "path";
 import fs from "fs";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 import axios from "axios";
+import { storeDocs } from "../pinecone";
+import { TextLoader } from "langchain/document_loaders/fs/text";
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 
 const queue = async ({
   channel,
@@ -21,6 +24,7 @@ const queue = async ({
   const aiQueue = "ai_queue";
   const returnMessage = "return_message_queue";
   const generateSourceFromReportQueue = "generate_source_from_report_queue";
+  const storeDocsPineconeQueue = "store_docs_pinecone_queue";
 
   await channel.assertExchange(messageExchange, "direct");
   await channel.assertExchange(fileExchange, "direct");
@@ -32,6 +36,7 @@ const queue = async ({
   await channel.assertQueue(aiQueue);
   await channel.assertQueue(returnMessage);
   await channel.assertQueue(generateSourceFromReportQueue);
+  await channel.assertQueue(storeDocsPineconeQueue);
 
   MyEventEmitter.on("create_message", async (data) => {
     channel.publish(
@@ -44,6 +49,27 @@ const queue = async ({
   MyEventEmitter.on("get_file", async (id: string) => {
     channel.sendToQueue(getFileMessageQueue, Buffer.from(id));
   });
+
+  channel.consume(
+    storeDocsPineconeQueue,
+    async () => {
+      try {
+        console.log("asdfasdfasdfads");
+        const blob = join(__dirname, "..", "report.txt");
+        const loader = new TextLoader(blob);
+        const raw = await loader.load();
+        const splitter = new RecursiveCharacterTextSplitter({
+          chunkSize: 1000,
+          chunkOverlap: 200,
+        });
+        const texts = await splitter.splitDocuments(raw);
+        await storeDocs(texts);
+      } catch (error) {}
+    },
+    {
+      noAck: true,
+    }
+  );
 
   channel.consume(
     generateSourceFromReportQueue,

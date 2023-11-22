@@ -4,8 +4,8 @@ import { BaseChatModel } from "langchain/chat_models/base";
 import { Namespace } from "socket.io";
 import { MyEventEmitter } from "../../events";
 import type { FILES } from "../../utils/types";
-import { RunnableSequence } from "langchain/schema/runnable";
 import { vectorstore } from "../../qachain";
+import { chain } from "../../pinecone";
 
 const advise = (
   io: Namespace,
@@ -68,14 +68,20 @@ const advise = (
                 )?.text;
               }
             } else {
-              result = (
-                await qachain?.call({
-                  question: content,
-                })
-              )?.text;
+              // result = (
+              //   await qachain?.call({
+              //     question: content,
+              //   })
+              // )?.text;
               // result = await advancedQA?.invoke({
               //   question: content,
               // });
+              const response = await chain.call({
+                query: content,
+              });
+              if (response) {
+                result = response.text;
+              }
             }
             if (result) {
               const aiMessage = {
