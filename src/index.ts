@@ -15,7 +15,6 @@ import { createTaggingChain } from "langchain/chains";
 import amqp from "amqplib";
 import queue from "./queue";
 import qachain from "./qachain";
-import { run } from "./utils/advancedQA";
 
 const app = express();
 const server = createServer(app);
@@ -58,14 +57,15 @@ async function main() {
     });
     const chainTag = createTaggingChain(schema, chatModel);
     const mychain = await qachain();
-    // const advancedQA = await run();
 
-    queue({ channel, qachain: mychain });
+    queue({
+      channel,
+      qachain: mychain,
+    });
     advise(io.of("/advise"), {
       chainCore,
       chainTag,
       qachain: mychain,
-      // advancedQA,
     });
 
     server.listen(process.env.AI_PORT, () => {

@@ -3,9 +3,9 @@ import { SqlDatabaseChain } from "langchain/chains/sql_db";
 import { BaseChatModel } from "langchain/chat_models/base";
 import { Namespace } from "socket.io";
 import { MyEventEmitter } from "../../events";
-import vectorstore from "../../utils/qachain";
 import type { FILES } from "../../utils/types";
 import { RunnableSequence } from "langchain/schema/runnable";
+import { vectorstore } from "../../qachain";
 
 const advise = (
   io: Namespace,
@@ -15,7 +15,7 @@ const advise = (
   {
     chainCore: SqlDatabaseChain;
     chainTag: LLMChain<object, BaseChatModel>;
-    qachain: ConversationalRetrievalQAChain | null;
+    qachain?: ConversationalRetrievalQAChain | null;
     // advancedQA: RunnableSequence<
     //   {
     //     question: string;
