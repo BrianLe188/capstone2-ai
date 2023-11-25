@@ -5,7 +5,9 @@ import { Namespace } from "socket.io";
 import { MyEventEmitter } from "../../events";
 import type { FILES } from "../../utils/types";
 import { vectorstore } from "../../qachain";
-import { chain } from "../../pinecone";
+import { chain, initChain } from "../../pinecone";
+import { OUTPUT_LANGUAGE_TRANSLATE_TO } from "../../utils/constant";
+import { translate } from "../../google-translate";
 
 const advise = (
   io: Namespace,
@@ -68,19 +70,19 @@ const advise = (
                 )?.text;
               }
             } else {
-              // result = (
-              //   await qachain?.call({
-              //     question: content,
-              //   })
-              // )?.text;
-              // result = await advancedQA?.invoke({
-              //   question: content,
-              // });
+              if (!chain) {
+                await initChain();
+              }
               const response = await chain.call({
                 query: content,
               });
               if (response) {
-                result = response.text;
+                const text = response.text;
+                const [translation] = await translate.translate(
+                  text,
+                  OUTPUT_LANGUAGE_TRANSLATE_TO
+                );
+                result = translation;
               }
             }
             if (result) {

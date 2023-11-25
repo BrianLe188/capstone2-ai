@@ -16,3 +16,4 @@ export const TOPIC_TAGS = [
   "document",
   "rules",
 ];
+export const OUTPUT_LANGUAGE_TRANSLATE_TO = "vi";

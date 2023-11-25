@@ -5,9 +5,11 @@ import path, { join } from "path";
 import fs from "fs";
 import { ConversationalRetrievalQAChain } from "langchain/chains";
 import axios from "axios";
-import { storeDocs } from "../pinecone";
+import { chain, initChain, storeDocs } from "../pinecone";
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
+import { OUTPUT_LANGUAGE_TRANSLATE_TO } from "../utils/constant";
+import { translate } from "../google-translate";
 
 const queue = async ({
   channel,
@@ -94,7 +96,7 @@ const queue = async ({
         }
         fs.appendFileSync(
           reportfilePath,
-          `\nĐây là những thông tin thống kê về của mỗi chuyên ngành, bao gồm: tên, học phí, điểm chuẩn, tỉ lệ chọi, số đơn đã đăng ký, số đơn bị từ chối và những chứng chỉ cần có để tốt nghiệp. Hãy dùng những thông tin này để trả lời cho những câu hỏi của sinh viên:\n`
+          `Đây là những thông tin thống kê về của mỗi chuyên ngành, bao gồm: tên, học phí, điểm chuẩn, tỉ lệ chọi, số đơn đã đăng ký, số đơn bị từ chối và những chứng chỉ cần có để tốt nghiệp. Hãy dùng những thông tin này để trả lời cho những câu hỏi của sinh viên:\n`
         );
         for (const s of statistics) {
           const template = `\n- Ngành ${s.majorName} có học phí ${s.tuition}, điểm chuẩn ${s.cutoffPoint}, số chỉ tiêu ${s.admissionCriteria}, số đơn đã đăng ký ${s.numberOfApplicationsApplied}, số đơn được chấp nhận (đơn trúng tuyển) ${s.numberOfRejectedApplicationsApplied}, số đơn bị từ chối ${s.numberOfRejectedApplicationsApplied}, tỉ lệ chọi ${s.acceptanceRate} và những chứng chỉ cần có để tốt nghiệp là ${s.graduationRequirements}\n`;
@@ -127,15 +129,12 @@ const queue = async ({
         const reportfilePath = path.join(__dirname, "../report.txt");
         fs.appendFileSync(
           reportfilePath,
-          `Đây là bộ câu hỏi mẫu đã được hỏi và trả lời trước đây, dựa vào đó để tạo ra những câu trả lời thích hợp cho từng câu hỏi của sinh viên:`
+          "Đây là bộ câu hỏi mẫu đã được hỏi và trả lời trước đây, dựa vào đó để tạo ra những câu trả lời thích hợp cho từng câu hỏi của sinh viên:\n"
         );
         Promise.all(
           jsonData.map(async (item, index) => {
             try {
-              const template = `
-${index}:
-- question: ${item.question} 
-- answer: ${item.answer}`;
+              const template = `---------------------\n${item.question}\n${item.answer}\n`;
               fs.appendFileSync(reportfilePath, template);
               console.log(`append question and answer ${index}`);
             } catch (error) {
@@ -170,11 +169,21 @@ ${index}:
         if (msg?.content) {
           const data = JSON.parse(msg.content.toString());
           const { message, sender_psid } = data;
-          const result = (
-            await qachain?.call({
-              question: message,
-            })
-          )?.text;
+          if (!chain) {
+            await initChain();
+          }
+          let result;
+          const response = await chain.call({
+            query: message,
+          });
+          if (response) {
+            const text = response.text;
+            const [translation] = await translate.translate(
+              text,
+              OUTPUT_LANGUAGE_TRANSLATE_TO
+            );
+            result = translation;
+          }
           if (result) {
             channel.sendToQueue(
               returnMessage,

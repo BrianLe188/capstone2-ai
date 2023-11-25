@@ -16,6 +16,7 @@ const pinecone = new Pinecone({
   environment: config.environment,
 });
 const pineconeIndex = pinecone.Index(config.index);
+let vectorStore: PineconeStore;
 export let chain: VectorDBQAChain;
 const model = new OpenAI({
   temperature: 0,
@@ -26,18 +27,22 @@ const openai = new OpenAIEmbeddings({
   openAIApiKey: process.env.OPENAI_KEY,
 });
 
-export const storeDocs = async (docs: Document<Record<string, any>>[]) => {
-  await PineconeStore.fromDocuments(docs, openai, {
-    pineconeIndex,
-    maxConcurrency: 5,
-  });
-  const vectorStore = await PineconeStore.fromExistingIndex(openai, {
+export const initChain = async () => {
+  vectorStore = await PineconeStore.fromExistingIndex(openai, {
     pineconeIndex,
   });
   chain = VectorDBQAChain.fromLLM(model, vectorStore, {
     k: 1,
     returnSourceDocuments: false,
   });
+};
+
+export const storeDocs = async (docs: Document<Record<string, any>>[]) => {
+  await PineconeStore.fromDocuments(docs, openai, {
+    pineconeIndex,
+    maxConcurrency: 5,
+  });
+  await initChain();
 };
 
 export const deleteDocs = async () => {
