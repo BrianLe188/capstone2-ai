@@ -13,17 +13,10 @@ const advise = (
   io: Namespace,
   {
     qachain,
-  }: // advancedQA,
-  {
+  }: {
     chainCore: SqlDatabaseChain;
     chainTag: LLMChain<object, BaseChatModel>;
     qachain?: ConversationalRetrievalQAChain | null;
-    // advancedQA: RunnableSequence<
-    //   {
-    //     question: string;
-    //   },
-    //   any
-    // >;
   }
 ) => {
   io.on("connection", (socket) => {
