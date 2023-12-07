@@ -76,13 +76,14 @@ const queue = async ({
     generateSourceFromReportQueue,
     async () => {
       try {
-        const [rules, statistics] = await Promise.all([
+        const [rules, statistics, qa] = await Promise.all([
           await axios
             .get("http://localhost:1111/rules")
             .then((data) => data.data),
           await axios
             .get("http://localhost:1111/statistics")
             .then((data) => data.data),
+          await axios.get("http://localhost:1111/qa").then((data) => data.data),
         ]).then((data) => data);
         const reportfilePath = path.join(__dirname, "../report.txt");
         fs.appendFileSync(
@@ -92,7 +93,6 @@ const queue = async ({
         for (const rule of rules) {
           const template = `\n----------------------------\n${rule.name}\n${rule.content}`;
           fs.appendFileSync(reportfilePath, template);
-          console.log(`append rule ${rule.id}`);
         }
         fs.appendFileSync(
           reportfilePath,
@@ -101,7 +101,14 @@ const queue = async ({
         for (const s of statistics) {
           const template = `\n- Ngành ${s.majorName} có học phí ${s.tuition}, điểm chuẩn ${s.cutoffPoint}, số chỉ tiêu ${s.admissionCriteria}, số đơn đã đăng ký ${s.numberOfApplicationsApplied}, số đơn được chấp nhận (đơn trúng tuyển) ${s.numberOfRejectedApplicationsApplied}, số đơn bị từ chối ${s.numberOfRejectedApplicationsApplied}, tỉ lệ chọi ${s.acceptanceRate} và những chứng chỉ cần có để tốt nghiệp là ${s.graduationRequirements}\n`;
           fs.appendFileSync(reportfilePath, template);
-          console.log(`append rule ${s.id}`);
+        }
+        fs.appendFileSync(
+          reportfilePath,
+          `\nĐây là lịch sử nội dung trò chuyện được lưu trữ trong hệ thống, sử dụng các câu trả lời phù hợp để phản hồi lại cho người dùng:`
+        );
+        for (const i of qa) {
+          const template = `- ${i.question}?\n- ${i.answer}`;
+          fs.appendFileSync(reportfilePath, template);
         }
       } catch (error) {
         console.log(error);
