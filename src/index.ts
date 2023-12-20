@@ -9,16 +9,41 @@ import { coreDB } from "./data-source";
 import { OpenAI } from "langchain/llms/openai";
 import { SqlDatabaseChain } from "langchain/chains/sql_db";
 import { FunctionParameters } from "langchain/output_parsers";
-import { LANGUAGE_TAGS, TOPIC_TAGS } from "./utils/constant";
+import {
+  LANGUAGE_TAGS,
+  OUTPUT_LANGUAGE_TRANSLATE_TO,
+  TOPIC_TAGS,
+} from "./utils/constant";
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import { createTaggingChain } from "langchain/chains";
 import amqp from "amqplib";
 import queue from "./queue";
-import qachain from "./qachain";
+import { storeIntoPinecone } from "./cron";
+import { chain, initChain } from "./pinecone";
+import { translate } from "./google-translate";
 
 const app = express();
 const server = createServer(app);
 const io = new Server(server);
+
+app.get("/question-and-answer", async (req, res) => {
+  const { content } = req.query;
+  if (!chain) {
+    await initChain();
+  }
+  const response = await chain.call({
+    query: content,
+  });
+  if (response) {
+    const text = response.text;
+    const [translation] = await translate.translate(
+      text,
+      OUTPUT_LANGUAGE_TRANSLATE_TO
+    );
+    let result = translation;
+    return res.status(200).json({ message: result });
+  }
+});
 
 async function main() {
   try {
@@ -56,17 +81,16 @@ async function main() {
       openAIApiKey: process.env.OPENAI_KEY,
     });
     const chainTag = createTaggingChain(schema, chatModel);
-    // const mychain = await qachain();
 
     queue({
       channel,
-      // qachain: mychain,
     });
     advise(io.of("/advise"), {
       chainCore,
       chainTag,
-      // qachain: mychain,
     });
+
+    storeIntoPinecone.start();
 
     server.listen(process.env.AI_PORT, () => {
       console.log(

@@ -88,7 +88,7 @@ const queue = async ({
         const reportfilePath = path.join(__dirname, "../report.txt");
         fs.appendFileSync(
           reportfilePath,
-          `\nĐây là những thông tin và quy định của trường, hãy dùng nó để đưa ra câu trả lời cho câu hỏi của sinh viên:\n`
+          `Đây là những thông tin và quy định của trường, hãy dùng nó để đưa ra câu trả lời cho câu hỏi của sinh viên:\n`
         );
         for (const rule of rules) {
           const template = `\n----------------------------\n${rule.name}\n${rule.content}`;
@@ -104,10 +104,10 @@ const queue = async ({
         }
         fs.appendFileSync(
           reportfilePath,
-          `\nĐây là lịch sử nội dung trò chuyện được lưu trữ trong hệ thống, sử dụng các câu trả lời phù hợp để phản hồi lại cho người dùng:`
+          `\nĐây là lịch sử nội dung trò chuyện được lưu trữ trong hệ thống, sử dụng các câu trả lời phù hợp để phản hồi lại cho người dùng:\n`
         );
         for (const i of qa) {
-          const template = `- ${i.question}?\n- ${i.answer}`;
+          const template = `- question: ${i.question}?\n- answer: ${i.answer}\n\n`;
           fs.appendFileSync(reportfilePath, template);
         }
       } catch (error) {

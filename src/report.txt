@@ -1,4 +1,3 @@
-
 Đây là những thông tin và quy định của trường, hãy dùng nó để đưa ra câu trả lời cho câu hỏi của sinh viên:
 
 ----------------------------
@@ -109,8 +108,7 @@ Tọa lạc ở trung tâm thành phố Đà Nẵng, cách sông Hàn 500 mét, 
 Công trình được xây dựng trên tổng diện tích trên 3.000 m2 gồm 4 khối nhà, mỗi khối 8 tầng liên kết với nhau thành một tổ hợp 109 phòng với tổng diện tích sử dụng hơn 19.000 m2. Trong đó có 28 phòng học hiện đại, mỗi phòng có từ 30 đến 100 chỗ ngồi, 27 phòng làm việc, 8 phòng thực hành máy với 490 máy tính được kết nối Internet, 7 phòng thực hành thí nghiệm, 1 hội trường với 500 chỗ ngồi, 36 phòng cư trú dành cho sinh viên nước ngoài, 1 thư viện với hàng ngàn đầu sách các loại.
 ----------------------------
 Cơ sở 137 Nguyễn Văn Linh - P. Nam Dương, Q. Hải Châu - Tp. Đà Nẵng
-Đây là cơ sở đầu tiên của trường được đưa vào sử dụng vào tháng 11/1997. Sau 16 năm xây dựng, cơ sở 137 Nguyễn Văn Linh vừa được tu sửa và nâng cấp thành 6 tầng với tổng diện tích sử dụng là 1.574 m2. Với cơ sở hạ tầng khang trang cùng các trang thiết bị hiện đại, Cơ sở 137 Nguyễn Văn Linh tạo điều kiện thuận lợi để sinh viên khoa Cao đẳng Nghề học tập và thực hành nghề. Đây cũng là địa chỉ đào tạo và cung cấp những “bàn tay vàng” chất lượng cao cho khu vực miền Trung nói riêng và cả nước nói chung. Đây cũng là nơi làm việc của Trung tâm Ngoại Ngữ và Phòng Kế hoạch Tài chính trường Đại học Duy Tân.
-Đây là những thông tin thống kê về của mỗi chuyên ngành, bao gồm: tên, học phí, điểm chuẩn, tỉ lệ chọi, số đơn đã đăng ký, số đơn bị từ chối và những chứng chỉ cần có để tốt nghiệp. Hãy dùng những thông tin này để trả lời cho những câu hỏi của sinh viên:
+Đây là cơ sở đầu tiên của trường được đưa vào sử dụng vào tháng 11/1997. Sau 16 năm xây dựng, cơ sở 137 Nguyễn Văn Linh vừa được tu sửa và nâng cấp thành 6 tầng với tổng diện tích sử dụng là 1.574 m2. Với cơ sở hạ tầng khang trang cùng các trang thiết bị hiện đại, Cơ sở 137 Nguyễn Văn Linh tạo điều kiện thuận lợi để sinh viên khoa Cao đẳng Nghề học tập và thực hành nghề. Đây cũng là địa chỉ đào tạo và cung cấp những “bàn tay vàng” chất lượng cao cho khu vực miền Trung nói riêng và cả nước nói chung. Đây cũng là nơi làm việc của Trung tâm Ngoại Ngữ và Phòng Kế hoạch Tài chính trường Đại học Duy Tân.Đây là những thông tin thống kê về của mỗi chuyên ngành, bao gồm: tên, học phí, điểm chuẩn, tỉ lệ chọi, số đơn đã đăng ký, số đơn bị từ chối và những chứng chỉ cần có để tốt nghiệp. Hãy dùng những thông tin này để trả lời cho những câu hỏi của sinh viên:
 
 - Ngành quản trị kinh doanh keuka có học phí 26329240, điểm chuẩn 28.1, số chỉ tiêu 15, số đơn đã đăng ký 0, số đơn được chấp nhận (đơn trúng tuyển) 0, số đơn bị từ chối 0, tỉ lệ chọi 0 và những chứng chỉ cần có để tốt nghiệp là Bằng Trung cấp Tin học trở lên
 
@@ -753,3 +751,290 @@ Cơ sở 137 Nguyễn Văn Linh - P. Nam Dương, Q. Hải Châu - Tp. Đà Nẵ
 - Ngành công nghệ thực phẩm có học phí 25014088, điểm chuẩn 28, số chỉ tiêu 16, số đơn đã đăng ký 0, số đơn được chấp nhận (đơn trúng tuyển) 0, số đơn bị từ chối 0, tỉ lệ chọi 0 và những chứng chỉ cần có để tốt nghiệp là 
 
 - Ngành thương mại điện tử có học phí 11010136, điểm chuẩn 20.1, số chỉ tiêu 16, số đơn đã đăng ký 1, số đơn được chấp nhận (đơn trúng tuyển) 1, số đơn bị từ chối 1, tỉ lệ chọi 0 và những chứng chỉ cần có để tốt nghiệp là 
+
+Đây là lịch sử nội dung trò chuyện được lưu trữ trong hệ thống, sử dụng các câu trả lời phù hợp để phản hồi lại cho người dùng:
+- question: Các phương thức tuyển sinh của trường?
+- answer: Trường Duy Tân có 4 phương thức tuyển sinh gồm xét tuyển thẳng, xét kết quả qua kì thi tốt nghiệp THPT, xét theo kết quả học bạ THPT, xét tuyển theo phương thức đánh giá năng lực do Đại học quốc gia TP.HCM và Đại học quốc gia Hà Nội
+
+- question: Hiện tại trường có bao nhiêu chuyên ngành nào ạ??
+- answer: Hiện tại trường có Ngành Tài chính - Ngân hàng (HP), Ngành Logistics & Quản lý Chuỗi cung ứng (HP), Ngành Marketing (HP), Ngành Quản trị Kinh doanh (HP), Tiến sĩ Quan hệ Quốc tế, Tiến sĩ Kỹ thuật Xây dựng, Tiến sĩ Tài chính Ngân hàng, Ngành Kinh tế Đầu tư, Ngành Quan hệ Công chúng, Ngành Thương mại Điện tử, Ngành Du lịch, Ngành Việt Nam học, Ngành Công nghệ Chế tạo Máy, Ngành Quản Trị Du lịch & Dịch vụ Hàng không, Ngành Quản trị Sự kiện, Ngành Truyền thông đa phương tiện, Ngành Quản trị Kinh doanh KEUKA, Ngành Khoa học Máy tính TROY, Ngành Quản trị Khách sạn TROY, Ngành Văn học, Ngành Kinh doanh Thương mại, Ngành Marketing, Ngành Quản trị Nhân lực, Ngành Kỹ thuật Y sinh, Ngành Công nghệ Sinh học, Ngành Răng-Hàm-Mặt, Ngành Y Khoa, Ngành Điều dưỡng, Ngành Dược, Ngành Quản trị Kinh doanh, Ngành Mạng Máy tính và Truyền thông Dữ liệu, Ngành Khoa học dữ liệu, Ngành Quản trị Dịch vụ Du lịch và Lữ hành, Ngành Kiến trúc chuẩn CSU, Ngành Xây dựng Dân dụng và Công nghiệp chuẩn CSU, Ngành Kỹ thuật Phần mềm, Ngành Quản trị Kinh doanh chuẩn PSU, Ngành Hệ thống Thông tin Quản lý chuẩn CMU, Ngành Quản trị Nhà hàng và Dịch vụ ăn uống, Ngành An ninh Mạng chuẩn CMU, Ngành Kỹ thuật Xây dựng, Ngành Công nghệ Phần mềm chuẩn CMU, Ngành Công nghệ Kỹ thuật Môi trường, Ngành Công nghệ Thực phẩm, Ngành Quản lý Tài nguyên và Môi trường, Ngành Kỹ thuật Xây dựng Công trình Giao thông, Ngành Kỹ thuật Cơ điện tử, Ngành Công nghệ Kỹ thuật Công trình Xây dựng, Ngành Luật Kinh tế, Ngành Kiến trúc Nội thất, Ngành Luật, Ngành Thiết kế Đồ họa, Ngành Thiết kế Thời trang, Ngành Công nghệ Kỹ thuật Điện - Điện tử, Ngành Công nghệ Kỹ thuật Ô tô, Ngành Kỹ thuật Điều khiển và Tự động hóa, Ngành An toàn Thông tin, Ngành Kiểm toán, Ngành Tài chính - Ngân hàng, Ngành Quan hệ Quốc tế, Ngành Logistics & Quản lý Chuỗi cung ứng, Ngành Ngôn ngữ Nhật, Ngành Ngôn Ngữ Hàn Quốc, Ngành Ngôn ngữ Trung Quốc, Ngành Ngôn ngữ Anh, Ngành Kỹ thuật Điện, Ngành Kế toán, Ngành Kiến trúc, Ngành Khoa học máy tính, Ngành Quản trị Khách sạn, Ngành Kế toán Kiểm toán chuẩn PSU, Ngành Tài chính - Ngân hàng chuẩn PSU, Ngành Kế toán, Ngành Xây dựng Dân dụng & Công nghiệp, Quản trị Kinh doanh,...
+
+- question: Ngành Kỹ thuật phần mềm có chuyên ngành nào ạ??
+- answer: Ngành kỹ thuật phần mềm có các chuyên ngành: Công nghệ phần mềm (Đạt kiểm định ABET) , Thiết kế Games và Multimedia, Big Data & Machine Learning (HP), Trí tuệ Nhân tạo (HP).
+
+- question: Muốn đăng kí Công nghệ Phần mềm thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Thiết kế Games và Multimedia thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Big Data & Machine Learning thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Trí tuệ Nhân tạo thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Ngành An toàn thông tin có chuyên ngành nào ạ??
+- answer: Ngành an toàn thông tin có chuyên ngành: An toàn thông tin.
+
+- question: Muốn đăng kí An toàn thông tin thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Ngành Mạng máy tính và truyền thông dữ liệu có chuyên ngành nào ạ??
+- answer: Ngành an toàn thông tin có các chuyên ngành: Kỹ thuật mạng và Mạng Máy tính và Truyền thông Dữ liệu.
+
+- question: Muốn đăng kí Kỹ thuật mạng thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Mạng máy tính và truyền thông dữ liệu thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Lý, Ngoại ngữ (A01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Ngành Công nghệ Kỹ thuật điện, điện tử có chuyên ngành nào ạ??
+- answer: Ngành Công nghệ Kỹ thuật điện, điện tử có các chuyên ngành: Điện tự động, Điện tử-Viễn thông, thiết kế vi mạch nhúng, điện-điện tử chuẩn PNU.
+
+- question: Ngành Kỹ thuật Điều khiển và Tự động hóa có chuyên ngành nào ạ??
+- answer: Ngành Kỹ thuật Điều khiển và Tự động hóa có chuyên ngành: Kỹ thuật Điều khiển và Tự động hóa.
+
+- question: Ngành Kỹ thuật điện có chuyên ngành nào ạ??
+- answer: Ngành Kỹ thuật điện có chuyên ngành: Kỹ thuật điện.
+
+- question: Ngành Kỹ thuật Cơ điện tử có chuyên ngành nào ạ??
+- answer: Ngành Kỹ thuật Cơ điện tử có chuyên ngành: Cơ điện tử chuẩn PNU.
+
+- question: Muốn đăng kí Điện tự động thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Điện tử-Viễn thông thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Thiết kế Vi mạch Nhúng thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Điện-Điện tử chuẩn PNU thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Công nghệ Kỹ thuật Ô tô thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Điện Cơ Ô tô thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Kỹ thuật Điều khiển và Tự động hóa thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Kỹ thuật Điện thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Cơ điện tử chuẩn PNU thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Ngành Thiết kế đồ họa có chuyên ngành nào ạ??
+- answer: Ngành Thiết kế đồ họa có chuyên ngành: Thiết kế đồ họa.
+
+- question: Ngành Thiết kế thời trang có chuyên ngành nào ạ??
+- answer: Ngành Thiết kế thời trang có chuyên ngành: Thiết kế thời trang.
+
+- question: Muốn đăng kí Thiết kế đồ họa thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Văn, Vẽ (V01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Toán, Văn, Vẽ (V01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Thiết kế thời trang thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Văn, Vẽ (V01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Toán, Văn, Vẽ (V01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Ngành Kiến trúc có chuyên ngành nào ạ??
+- answer: Ngành Kiến trúc có chuyên ngành: Kiến trúc công trình.
+
+- question: Ngành Kiến trúc nội thất có chuyên ngành nào ạ??
+- answer: Ngành Kiến trúc nội thất có chuyên ngành: Kiến trúc nội thất.
+
+- question: Muốn đăng kí Kiến trúc công trình thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 	 1.Toán, Lý, Vẽ (V00) 2.Toán, Văn, Vẽ (V01) 3.Toán, KHXH, Vẽ (M02) 4.Toán, KHTN, Vẽ (M04) còn đối với xét học bạ THPT thì 1.Toán, Lý, Vẽ (V00) 2.Toán, Văn, Vẽ (V01) 3.Toán, Ngoại ngữ, Vẽ (V02) 4. Toán, Địa, Vẽ (V06)
+
+- question: Muốn đăng kí Kiến trúc nội thất thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 	 1.Toán, Lý, Vẽ (V00) 2.Toán, Văn, Vẽ (V01) 3.Toán, KHXH, Vẽ (M02) 4.Toán, KHTN, Vẽ (M04) còn đối với xét học bạ THPT thì 1.Toán, Lý, Vẽ (V00) 2.Toán, Văn, Vẽ (V01) 3.Toán, Ngoại ngữ, Vẽ (V02) 4. Toán, Địa, Vẽ (V06)
+
+- question: Ngành Kỹ thuật xây dựng có chuyên ngành nào ạ??
+- answer: Ngành Kỹ thuật xây dựng có chuyên ngành: Xây dựng Dân dụng & Công nghiệp.
+
+- question: Ngành Công nghệ Kỹ thuật Công trình Xây dựng có chuyên ngành nào ạ??
+- answer: Ngành Ngành Công nghệ Kỹ thuật Công trình Xây dựng có các chuyên ngành: Công nghệ Quản lý Xây dựng, Quản lý và Vận hành Tòa nhà.
+
+- question: Ngành Kỹ thuật Xây dựng Công trình Giao thông có chuyên ngành nào ạ??
+- answer: Ngành Kỹ thuật Xây dựng Công trình Giao thông có chuyên ngành: Xây dựng Cầu đường.
+
+- question: Ngành Công nghệ kỹ thuật môi trường có chuyên ngành nào ạ??
+- answer: Ngành Công nghệ kỹ thuật môi trường có chuyên ngành: Công nghệ & Kỹ thuật Môi trường.
+
+- question: Muốn đăng kí Xây dựng Dân dụng & Công nghiệp thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Công nghệ Quản lý Xây dựng thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Quản lý và Vận hành Tòa nhà thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Xây dựng Cầu đường thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Muốn đăng kí Công nghệ & Kỹ thuật Môi trường thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Hoá, Sinh (B00) 4.Văn, Toán, Hoá (C02) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Toán, Hóa, Sinh (B00)
+
+- question: Ngành Công nghệ thực phẩm có chuyên ngành nào ạ??
+- answer: Ngành Công nghệ kỹ thuật môi trường có chuyên ngành: Công nghệ Thực phẩm.
+
+- question: Ngành Quản lý Tài nguyên và Môi trường có chuyên ngành nào ạ??
+- answer: Ngành Quản lý Tài nguyên và Môi trường có chuyên ngành: Quản lý Tài nguyên và Môi trường.
+
+- question: Ngành Công nghệ Chế tạo Máy có chuyên ngành nào ạ??
+- answer: Ngành Công nghệ Chế tạo Máy có chuyên ngành: Công nghệ Chế tạo Máy.
+
+- question: Muốn đăng kí Công nghệ Thực phẩm thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Hoá, Sinh (B00) 4.Văn, Toán, Lý (C01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Toán, Hóa, Sinh (B00)
+
+- question: Muốn đăng kí Quản lý Tài nguyên và Môi trường thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Toán, Hoá, Sinh (B00) 4.Văn, Toán, KHXH (C15) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Toán, Hóa, Sinh (B00)
+
+- question: Muốn đăng kí Công nghệ Chế tạo Máy thì cần xét điểm các môn nào??
+- answer: Đối với kết quả thi THPT thì có thể xét điểm các môn sau: 1.Toán, Lý, Hoá (A00) 2.Toán, KHTN, Văn (A16) 3.Văn, Toán, Lý (C01) 4.Văn, Toán, Ngoại ngữ (D01) còn đối với xét học bạ THPT thì 1.Toán, Lý, Hoá (A00) 2.Văn, Toán, Lý (C01) 3.Văn, Toán, Hoá (C02) 4.Văn, Toán, Ngoại ngữ (D01)
+
+- question: Em đã xét tuyển học bạ và hiện tại em chưa muốn nhập học thì kết quả đó có bị bỏ không ạ ? Và sau này khi điền NV thì xét học bạ phải là Nv1 ạ hay mình để NV2 ,3 đều được ạ ??
+- answer: Chào em, theo quy chế mới ban hành của Bộ GD&ĐT năm nay, ngoài việc thí sinh đăng ký xét tuyển học bạ THPT trực tuyến trên website của ĐH Duy Tân thì sau khi thi THPT quốc gia xong, Bộ GD- ĐT sẽ mở cổng thông tin để thí sinh thực hiện chọn trường, phương thức xét tuyển, chọn thứ tự nguyện vọng và nhập thông tin điểm xét tuyển vào ĐH Duy Tân để đăng ký nhé.
+
+- question: Sau khi trúng tuyển online thì mất bao lâu để có giấy trúng tuyển gửi về ạ. Tại sao khi trúng tuyển online em k nhận được gmail. Khi trúng tuyển có phải em đã chính thức trở thành học sinh của trường không ạ. Em rất cần được giải đáp thắc mắc ạ. Em xin cảm ơn!?
+- answer: Chào em, sau khi kiểm tra thì thông tin của em đã có trên hệ thống đăng ký xét tuyển của trường, em đã đăng ký và đạt điểm xét tuyển vào Răng-Hàm-Mặt, trường sẽ gửi thông báo giấy về địa chỉ em đã đăng ký dựa vào thời gian dự kiến nhập học của trường là trong tháng 8. Địa chỉ email của em chính xác rồi nên em có thể kiểm tra lại hộp thư Spam hoặc thư rác trong email xem có thông báo của trường không em nhé.
+
+- question: Con tôi muốn đăng ký xét tuyển học bạ ngành kiến trúc của trường ĐH Duy Tân, nhưng cháu không học vẽ có được không ạ? Rất cần được tư vấn thêm. Cám ơn nhiều!?
+- answer: Chào Anh/Chị, quy định xét tuyển vào ngành Kiến trúc của trường Đại học Duy Tân thì các tổ hợp xét tuyển đều có môn Vẽ mỹ thuật, vì vậy thí sinh bắt buộc phải có kết quả môn Vẽ mỹ thuật mới có thể đăng ký xét tuyển vào trường. Thí sinh tham gia xét tuyển Ngành Kiến trúc sẽ tham dự thi môn Vẽ Mỹ thuật (Hình thức: Vẽ tĩnh vật) do Trường Đại học Duy Tân tổ chức vào ngày 16 & 17/07/2022 hoặc thí sinh nộp kết quả thi môn Vẽ Mỹ thuật từ các trường khác để xét tuyển vào Trường Đại học Duy Tân.
+
+- question: Cho e hỏi e muốn đăng kí xét học bạ đợt 1 mà chưa có bằng tốt nghiệp, e có thể bổ sung sau được không ạ !?
+- answer: Chào em, hồ sơ xét tuyển theo kết quả học bạ THPT gồm: Đơn xét tuyển theo mẫu trường; Bản sao bằng tốt nghiệp THPT hoặc bản sao Giấy chứng nhận tốt nghiệp THPT tạm thời; Bản sao học bạ công chứng. Hồ sơ nào đang có thì em nộp về trường để xét tuyển trước và bổ sung hồ sơ còn thiếu sau theo quy định.
+
+- question: thi ngành thiết kế đồ họa thì bao giờ sẽ thi vẽ?
+- answer: Chào em, Môn Vẽ Mỹ thuật: Thí sinh có thể thi tại Trường Đại học Duy Tân hoặc dùng kết quả thi môn Vẽ Mỹ thuật tại các trường đại học có tổ chức thi trong cả nước. Trường Đại học Duy Tân tổ chức thi môn Vẽ Mỹ thuật vào ngày 29&30/6/2019.
+
+- question: Em muốn hỏi là các giấy tờ cần thiết để xét tuyển học bạ 2019 là những gì ạ. Và giấy chứng nhận tốt nghiệp tạm thời hiện tại trường em chưa có thì sau khi nhập học em nộp sau được không ạ??
+- answer: Chào em, hồ sơ xét tuyển theo kết quả học bạ THPT gồm: Đơn xét tuyển theo mẫu trường; Bản sao bằng tốt nghiệp THPT hoặc bản sao Giấy chứng nhận tốt nghiệp THPT tạm thời; Bản sao học bạ công chứng. Hồ sơ nào đang có thì em nộp về trường để xét tuyển trước và bổ sung hồ sơ còn thiếu sau theo quy định.
+
+- question: em muốn hỏi là e đã đk ol trực tuyến r và đã đầy đủ điều kiện vào tr bh chỉ cần đâum tốt nghiệp là e đc nhận .vậy sau khi e đk như vậy thì bh e nộp hồ sơ cần gì ạ .?
+- answer: Chào em, hồ sơ xét tuyển theo kết quả học bạ THPT gồm: Đơn xét tuyển theo mẫu trường; Bản sao bằng tốt nghiệp THPT hoặc bản sao Giấy chứng nhận tốt nghiệp THPT tạm thời; Bản sao học bạ công chứng. Hồ sơ nào đang có thì em nộp về trường để xét tuyển trước và bổ sung hồ sơ còn thiếu sau theo quy định.
+
+- question: cho em hỏi, đăng kí xét học bạ 2 ngành ngôn ngữ anh du lịch với dược sĩ cùng trường mình được không ạ??
+- answer: Chào em, cả 2 ngành Ngôn ngữ Anh và ngành Dược trường đều có xét tuyển theo phương thức xét kết quả học bạ THPT.
+
+- question: Học duy tân HK khá có được không ạ?
+- answer: Chào em, nếu điểm xét tuyển của em đạt điểm chuẩn của các phương thức xét tuyển của trường Đại học Duy Tân thì em vẫn trúng tuyển và làm thủ tục nhập học theo quy định em nhé.
+
+- question: em định tham gia khóa học elearning do trường mình tổ chức nhưng không biết học phí như thế nào,mong được giải đáp.?
+- answer: Học phí của chương trình Đại học Trực tuyến là 2.400.000 đồng/học kỳ.       Mọi thắc mắc về khóa học bạn liên hệ trực tiếp với Trung tâm E-University Đại học Duy Tân - 182 Nguyễn Văn Linh - Đà Nẵng. Hoặc bạn có thể liên hệ qua điện thoại (0511) 3.650403 - Số nội bộ: 102 - Hotline 0905978909.  Bạn có thể xem thông tin cụ thể hơn tại website này nhé http://e-university.edu.vn @import url(/css/example.css);
+
+- question: Em muốn học Đh răng hàm mặt duy tân thì có cách nào đăng ký nhanh hay chờ đký qua nguyên vọng ngày 19/7 tới. Toàn bộ kinh phí phải nộp trong 1 kỳ là bao nhiêu ạ ? Em cảm ơn !?
+- answer: Chào bạn!        Đăng ký thoe Bộ là hình thức nhanh nhất có thể rồi bạn ah       Học phí ngành này là 25 triệu 1 học kì bạn nhé
+
+- question: Em đăng ký online rồi khi nào nhập học bổ sung học bạ được ko ạ?
+- answer: Chào bạn!  Sau khi xét tuyển online bạn làm một bộ hồ sơ gồm: mẫu đơn xét tuyển học bạ và học bạ photo công chứng và gởi về trường theo đại chỉ: 254 nguyễn văn linh, tp đà nẵng. như vậy thì hồ sơ của e mới hợp lệ nhé. Mẫu đơn đăng ký bạn có thể tài theo đường link dưới đây       http://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?idart=642&idcat=26
+
+- question: Em chào thầy(cô) ạ. Thầy cô có thể giúp em một vài vấn đề sau được không ạ. Theo như phiếu đang kí xét tuyển bằng kết quả thi thptqg, có một vài thông tin em không hiểu rõ lắm, thầy(cô) có thể gửi cho em một ban hướng dẫn chi tiết được không ạ. Em xin chân thành cảm ơn?
+- answer: Chào bạn!         Không có bảng hướng dẫn điền thông tin, bạn có thể điện thoại theo số 02363.650403 để được tư vấn làm hồ sơ bạn nhé
+
+- question: 1. Đăng ký nguyện vọng vào học tai trường qua website của Bộ Giáo dục và Đào tạo theo quy định thì có cần làm phiếu đăng ký xét tuyển theo thông báo tuyển sinh của Nhà trường không? 2. Học ngành Dược thị học tại cơ sở nào để chủ động thuê phòng trọ sớm? Cảm ơn?
+- answer: Chào bạn!          Nếu bạn đăng ký NV1 theo hệ thống của Bộ thì không cần làm các bước nộp hồ sơ xét tuyển nữa, nhưng nếu không bạn NV1 thì bạn mang phiếu điiểm đến trường để xét tuyển bạn nhé
+
+- question: Bên mình có mức học phí của mọi môn là gần 8tr/1kỳ . Vậy riêng ngành du lịch quốc tế là bao nhiêu 1 kỳ ạ?
+- answer: Chào bạn!      Học phí ngành Du lịch PSU là 12 triệu 1 học kỳ bạn nhé
+
+- question: Dạ cho em hỏi em gửi hồ sơ về trường mà em ghi sai số điện thoại của trường. Vậy giờ trường có nhận được không ạ hay là ko ạ... Xin ban tư vấn trả lời lại hộ em nha?
+- answer: Chào bạn!          Ghi sai số điện thoại của Trường thì không sao vì có địa chỉ cụ thể, bạn kiểm tra email xem trường đã gởi thông tin trúng tuyển chưa nhé, sau đó trường sẽ gởi giấy báo trúng tuyển về cho bạn
+
+- question: Cho e hỏi ngành dược duy tân nếu không đăng kí trong các nguyện vọng. Thì mình có được nộp riêng hồ sơ để xét đỉm được không ạ. Hay bắt buộc phải đăng kí trong các nguyện vọng thì mới được xét ạ?
+- answer: Chào bạn!    Nếu bạn chưa đăng kỳ trên mạng của Bộ thì bạn có thể mang phiếu điểm gốc đến trường để xét tuyển bạn nhé
+
+- question: Đậu đại học duy tân(nguyện vọng 1) bằng kết quả thpt  giờ em cần làm gì nữa ạ ??
+- answer: Chào bạn!         Nếu bạn đậu theo hình thức đăng ký theo Bộ thì qua ngày 24/7 Trường sẽ tiến hành gởi giấy báo trúng tuyển cho các bạn, sau đó bạn căn cứ thời gian nhập học ghi trên giấy báo và nhập học bạn nhé
+
+- question: Đợt 2 trường có xét điểm sao ạ?
+- answer: Chào bạn!        Hiện tại trường đang xét đợt 1, khi nào xong sẽ xét đợt 2, sẽ có thông báo về điểm đợt 2 sau bạn nhé
+
+- question: dạ em muốn hỏi là bây giờ e đăng kí thì khi nào có thông báo trúng tuyển hay không trúng tuyển ạ?
+- answer: Chào bạn!      Kể từ khi Trường nhận được hồ sơ của bạn thì khoảng 1 tuần bạn sẽ nhận được giấy báo trúng tuyển bạn nhé
+
+- question: em học ngành công nghệ phần mềm thì nên thuê trọ ở đâu để tiện đi học ạ??
+- answer: Chào bạn! Hiện tại trường có nhiều cơ sở nên việc chọn trọ gần 1 cơ sở sẽ rất khó để di chuyển, cho nên em có thể chọn chổ ở giữa các cơ sở
+
+- question: em học ngành ngôn ngữ thì học ở đâu là chủ yếu??
+- answer: Chào bạn! Nếu bạn học ngành ngôn ngữ (ngoại ngữ) thì chủ yếu học ở cơ sở 137 nguyễn văn linh
+
+- question: em học ngành dược thì học ở đâu là chủ yếu ạ??
+- answer: Chào bạn! Ngành dược sẽ học ở cơ sở hoà khánh nam là chủ yếu
+
+- question: em có nên tìm trọ gần 1 cơ sở không ạ??
+- answer: Chào bạn! Vì trong suốt quá trình học, bạn sẽ học ở nhiều cơ sở nên việc chọn ở trọ gần trường sẽ tiện lợi di chuyển trong 1 cở sở và những cơ sở còn lại sẽ xa hơn
+
+- question: trường có ký túc xá không ạ??
+- answer: Trường không có ký túc xá riêng, nhưng bạn có thể đăng ký ở ký túc xá phía tây
+
+- question: em đăng ký nhập học, nhưng muốn rút đơn thì phải làm sao ạ??
+- answer: đại diện nhiều trường thừa nhận việc để thí sinh thoải mái rút - nộp hồ sơ là gây phiền hà, khó khăn cho các trường bởi thêm một công đoạn là sẽ “đẻ” ra nhiều việc. Bên cạnh đó, việc cập nhật hàng ngàn hồ sơ cùng lúc là điều không dễ. Theo PGS Lê Trọng Thắng, Trường ĐH Mỏ - Địa chất, cần có giải pháp hài hòa giữa các trường và thí sinh. Khi nộp đơn xét tuyển, thí sinh cần cân nhắc cẩn trọng chứ không phải thích là nộp, không thích là rút. Chuyên gia này góp ý Bộ GD-ĐT nên giãn thời gian cập nhật thông tin từ 3 ngày lên 5 ngày để đỡ gây áp lực cũng như phức tạp cho các trường. Đồng thời, sau khi đã chốt danh sách xét tuyển (hết thời hạn 20 ngày) thì thí sinh không được rút hồ sơ ra nữa.
+
+- question: ngành công nghệ phần mềm sẽ có học phí là bao nhiêu??
+- answer: học phí của chương trình học sẽ được thông báo trên hệ thống của trường, tuy nhiên sẽ có biến động. Sinh viên cần đăng ký nhập học sớm nhất có thể
+
+- question: trường có câu lạc bộ nào không ạ??
+- answer: trường có rất nhiều câu lạc bộ dành cho sinh viên như là: câu lạc bộ tiếng hàn, vovinam, karatedo, bóng chuyền, sinh viên 5 tốt, …. Bạn có thể liên hệ với chủ tịch câu lạc bộ để được tham gia
+
+- question: em muón liên hệ để tham gia câu lạc bộ tiếng hàn?
+- answer: bạn có thể liên hệ Nguyễn Trọng Phụng - Chủ nhiệm CLB tiếng hàn: 0779429052 để biết thêm chi tiết
+
+- question: em muốn hỏi thông tin về các học bổng của trường?
+- answer: trường có nhiều học bổng phù hợp với nhiều đối tượng sinh viên, như là :Học bổng chương trình Tiên tiến & Quốc tế CMU, PSU, CSU, PNU năm 2023, Học bổng Toàn phần/ Bán phần/ Nhân tài cho Chương trình Du học tại chỗ lấy bằng của các Đại học Mỹ năm 2023,Học bổng từ đại học lên Thạc sĩ, Tiến sĩ cho những thí sinh trúng tuyển trong kỳ tuyển sinh đại học năm 2023 ... bạn có thể tham khảo các học bổng khác tại link: https://duytan.edu.vn/tuyen-sinh/Page/SchollashipView.aspx
+
+- question: học phí của trường như thế nào ạ??
+- answer: Dựa theo chính sách của trường, học phí Đại Học Duy Tân năm học 2023 – 2024 dao động trong khoảng từ 11.000.000 – 31.000.000 đồng/1 học kỳ cho từng chương trình học với từng ngành học. 
+
+- question: cho em thông tin chi tiết của học phí ạ?
+- answer: đây là link thông tin chi tiết học phí: https://muaban.net/blog/hoc-phi-dai-hoc-duy-tan-165511/#:~:text=D%E1%BB%B1a%20theo%20ch%C3%ADnh%20s%C3%A1ch%20c%E1%BB%A7a,h%E1%BB%8Dc%20v%E1%BB%9Bi%20t%E1%BB%ABng%20ng%C3%A0nh%20h%E1%BB%8Dc.&text=L%C6%B0u%20%C3%BD%3A%20%C4%90%E1%BB%91i%20v%E1%BB%9Bi%20h%E1%BB%8Dc,16%20t%C3%ADn%20ch%E1%BB%89%2Fh%E1%BB%8Dc%20k%E1%BB%B3.
+
+- question: cho em hỏi học phí của ngành kỹ thuật phần mềm ạ??
+- answer: ngành kỹ thuật phần mềm gồm có 2 chuyên ngành là Công nghệ Phần mềm và Thiết kế Games và Multimedia có học phí 813.750 / 1 tín chỉ
+
+- question: cho em hỏi học phí của ngành an toàn thông tin ạ??
+- answer: ngành an toàn thông tin gồm có các chuyên ngành Kỹ thuật mạng, Ngành Khoa học máy tính, Ngành Khoa học dữ liệu, Ngành Mạng máy tính và Truyền thông dữ liệu có học phí từ 660.000 tới 1250000 / 1 tín chỉ
+
+- question: những điều kiện để được nhận học bổng là gì ạ??
+- answer: thí sinh phải có tổng điểm 3 môn xét tuyển từ Kỳ thi tốt nghiệp THPT đạt: - từ 25 điểm trở lên: giảm 100% học phí toàn khóa học, - từ 23 điểm trở lên: giảm 50% học phí toàn khóa học. Bạn có thể tham khảo tại link https://duytan.edu.vn/tuyen-sinh/Page/SchollashipView.aspx
+
+- question: trường có bao nhiêu cơ sở?
+- answer: Cơ sở Hòa Khánh Nam - Cơ sở 137 Nguyễn Văn Linh. - Cơ sở 03 Quang Trung - Cơ sở 254 Nguyễn Văn Linh & 209 Phan Thanh
+
+- question: em chọn ngành phần mềm nhưng chưa biết lập trình thì có học được không ạ??
+- answer: chào bạn! Nếu chưa biết lập trình thì bạn vẫn có thể học bình thường vì trường sẽ dạy từ cơ bản tới nâng cao
+
+- question: trong quá trình học em có thể bảo lưu kết quả được không ạ??
+- answer: sinh viên được quyền xin tạm dừng học tập và được bảo lưu kết quả học tập trong các trường hợp sau:
+Được điều động vào lực lượng vũ trang.
+Bị ốm hoặc tại nạn buộc phải điều trị trong thời gian dài (có giấy xác nhận của cơ quan y tế cấp tỉnh, thành trở lên);
+Vì nhu cầu cá nhân: chỉ được chấp nhận đơn khi sinh viên có thời gian theo học ít  nhất 1 học kỳ tại trường, không thuộc diện buộc thôi học tính đến thời điểm nộp đơn và có điểm trung bình chung tích lũy không dưới 2.0.
+
+- question: thời gian tạm nghĩ là bao lâu ạ??
+- answer: Không quá 4 học kỳ chính cho các khóa từ 3 đến dưới 5 năm, 6 học kỳ chính đối với các khóa đào tạo từ 5 năm trở lên. Thời gian nghỉ học tạm thời được tính vào tổng thời thời gian tối đa được phép học tại trường. Trong thời gian nghỉ học tạm thời, nhà trường không xác nhận bất kỳ giấy tờ cá nhân liên quan đến sinh viên.
+
+- question: một học kỳ được đăng ký bao nhiêu tín chỉ ạ??
+- answer: một học kỳ em có thể đăng ký tối đa 20 tín chỉ và 1 chỉ giáo dục thể chất. Nếu muốn có thể làm đơn đăng ký học vượt và số tín chỉ vượt không quá 3
+
+- question: em muốn ra trường trước và học vượt thì làm như nào ạ??
+- answer: trường có hổ trợ cho sinh viên đăng ký học vượt, mỗi sinh viên được vượt không quá 3 tín chỉ mỗi kỳ học. Nhưng cần sắp xếp thời gian hợp lý
+
+- question: những điều kiện để được miễn giảm học phí ạ??
+- answer: có hoàn cảnh kinh tế khó khăn nhưng vượt khó học tập tốt
+
+- question: em muốn làm đơn miễn giảm học phí thì làm thế nào ạ??
+- answer: em có thể tham khảo mẫu đơn miễn giảm học phí tại link https://hssv.duytan.edu.vn/Home/ArticleDetail/vn/171/1950/mau%20don%20xin%20xet%20giam%20hoc%20phi%20nam%20hoc%2020212022 hoặc đến phòng công tác sinh viên
+
+- question: trường có cho sinh viên học online không ạ??
+- answer: trường có các môn học sẽ có vài buổi học sẽ học online, điều này phụ thuộc vào giáo viên của bạn nha
+
+- question: cơ hội nghề nghiệp như thế nào ạ?
+- answer: :))) trường có hợp tác với các doanh nghiệp trong nước và ngoài nước để bạn có thể thoải mái lựa chọn. Nhưng hơn hết bạn phải có năng lực
+
+- question: em học lập trình thì ra làm nghề gì ạ??
+- answer: bạn học lập trình thì bạn sẽ làm nghề liên quan đến lập trình hoặc bạn có thể rẽ theo hướng khác như BA, tester,… lương rất là cạnh tranh không thua gì lập trình
+
